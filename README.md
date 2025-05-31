@@ -14,8 +14,10 @@ Seleccione 3 patrones de diseño e implementarlos en Python. Arme ejemplos concr
 elegir un patrón de cada clasificación.
 -Singleton (UNICA INSTANCIA) : Asegura que una clase solo tenga una única "copia" en todo el programa. Si intentas crear otra, te da la misma que ya existe.
 Ejemplo: programa "Gerente de Log". Solo quiero un gerente que anote todo lo que pasa. Con Singleton, siempre voy a usar el mismo gerente, no importa cuántas veces intento "crear" uno nuevo.
-Adapter (El adaptador/traductor): Permite que dos objetos que no "hablan el mismo idioma" (tienen diferentes formas de funcionar) puedan trabajar juntos. Actúa como un traductor.
+-Adapter (El adaptador/traductor): Permite que dos objetos que no "hablan el mismo idioma" (tienen diferentes formas de funcionar) puedan trabajar juntos. Actúa como un traductor.
 Ejemplo: Hay un "Enchufe Viejo" y un "Aparato Nuevo" que solo encaja en "enchufes nuevos". Un AdaptadorDeEnchufe (como los que usas para viajar) permite que el Aparato Nuevo use el Enchufe Viejo.
+-Strategy (Comportamiento): Múltiples formas de hacer algo. Permite cambiar la forma en que un objeto hace algo sin cambiar el objeto en sí. Es como tener varias estrategias para resolver un problema y elegir una en el momento.
+Ejemplo: Un "Sistema de Envíos" que puede usar diferentes métodos de envío: "Envío en Moto", "Envío por Camión" o "Envío por Avión". El sistema elige la estrategia de envío que necesita sin tener que reescribir su código cada vez.
 
 ### Ejercicio 3:
 Piense en 3 problemas habituales de su vida diaria en los cuales podría aplicar patrones de diseño
